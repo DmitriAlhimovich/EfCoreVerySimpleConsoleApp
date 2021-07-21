@@ -10,9 +10,9 @@ namespace EfCoreSimpleConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Start EF Core App");
 
-            var students = ParseTxtToStudents("c:\\students.txt").ToList();
+            var students = ParseTxtToStudents("c:\\files\\students.txt").ToList();
             
             using var context = new StudentsContext();            
             context.Students.AddRange(students);
