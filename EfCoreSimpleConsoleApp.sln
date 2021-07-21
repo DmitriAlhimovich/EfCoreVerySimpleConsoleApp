@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31512.422
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreSimpleConsoleApp", "EfCoreSimpleConsoleApp\EfCoreSimpleConsoleApp.csproj", "{ECB72628-F2AD-4820-8CB9-0A5E43060DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB72628-F2AD-4820-8CB9-0A5E43060DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB72628-F2AD-4820-8CB9-0A5E43060DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB72628-F2AD-4820-8CB9-0A5E43060DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB72628-F2AD-4820-8CB9-0A5E43060DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAC28032-E1DE-4EDC-8C0E-834A4A2C1B11}
+	EndGlobalSection
+EndGlobal
