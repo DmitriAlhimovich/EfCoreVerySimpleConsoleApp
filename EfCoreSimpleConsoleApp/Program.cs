@@ -12,7 +12,7 @@ namespace EfCoreSimpleConsoleApp
         {
             Console.WriteLine("Hello World!");
 
-            var students = ParseTxtToStudents("c:\\Dima\\Teaching\\IT-Academy\\ASP.NET\\students.txt").ToList();
+            var students = ParseTxtToStudents("c:\\students.txt").ToList();
             
             using var context = new StudentsContext();            
             context.Students.AddRange(students);
